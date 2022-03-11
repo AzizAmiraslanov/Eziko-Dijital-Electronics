@@ -1,0 +1,814 @@
+/* Responsive Site Code Start in the head */
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 800px) and (max-width:1200px) {
+
+
+  * {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .header-nav .nav-container .col-lg-6:first-child ul {
+    display: flex;
+    justify-content: space-around;
+
+    width: 70%;
+
+  }
+/* header-top-contact Code Area Start in the Here */
+#header .header-container .header-top .header-top-contact {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  padding: 30px 15px 30px 50px;
+
+}
+
+#header .header-container .header-top .header-top-contact i {
+  font-size: .7rem;
+  border: 2px solid #1467c1;
+  color: #1467c1;
+  border-radius: 50%;
+  position: absolute;
+  padding: .7rem;
+  margin: 0;
+
+}
+
+#header .header-container .header-top .header-top-contact .contact-number {
+  margin-left: 2.5rem;
+}
+
+#header .header-container .header-top .header-top-contact .contact-number p:first-child {
+  font-size: .9rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: rgb(92, 92, 92);
+}
+
+#header .header-container .header-top .header-top-contact .contact-number p:nth-child(2) {
+  font-size: .8rem;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+}
+
+
+/* header-top-contact Code Area End of the Here */
+/* ------------------------------------------------------------------------------------------ */
+
+
+#header .header-container .header-top .header-top-shopping {
+  width: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+
+
+  menu {
+    width: 100%;
+    height: 52px;
+    background: #f5f5f5 no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  menu .menu-container {
+    width: 95%;
+    height: 100%;
+  }
+
+  menu .menu-container .menu-category {
+    width: 30%;
+    height: 100%;
+    background-color: red;
+  }
+
+  menu .menu-container .menu-tittle {
+    width: 50%;
+    height: 100%;
+  }
+
+  menu .menu-container .our-store {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+
+  }
+
+  menu .menu-container .menu-tittle .menu-content ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  menu .menu-container .menu-tittle .menu-content ul li {
+    width: 37%;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+  }
+
+
+  .site-content .site-content-container {
+    width: 95%;
+
+
+  }
+
+  .site-content-promotion {
+    display: none;
+
+  }
+
+
+
+  .site-content-container .menu-item {
+    width: 30%;
+
+  }
+
+  .site-content-slider {
+    width: 70%;
+  }
+
+  .site-content-slider .slider {
+    width: 1000px;
+    height: 570px;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  .site-content-slider .slider .slider-item .slider-images img {
+    width: 100%;
+  }
+
+
+
+  .gift-special {
+    width: 95%;
+  }
+
+
+
+  
+
+  .product-category {
+    width: 100%;
+    height: 100%;
+  }
+
+  .product-category-content {
+    width: 95%;
+  }
+
+  .newsletter {
+    width: 95%;
+  }
+
+  .end-price {
+    width: 95%;
+  }
+
+  .new-part {
+    width: 95%;
+  }
+
+  #sponsor {
+    width: 100%;
+    height: 70%;
+  }
+
+  .lang-menu {
+
+    display: none;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 2px 2px rgb(218, 218, 218);
+    border-radius: 5px;
+    z-index: 1;
+    width: 15%;
+    position: absolute;
+    top: 5%;
+    right: 1%;
+
+
+  }
+
+  .exchange .exchange-menu {
+    display: none;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 2px 2px rgb(218, 218, 218);
+    border-radius: 5px;
+    z-index: 1;
+    width: 10%;
+    position: absolute;
+    top: 5%;
+    right: 1%;
+  }
+
+  #header {
+    width: 100%;
+  }
+
+  #header .header-container {
+    width: 95%;
+  }
+
+  #header .header-container .header-top {
+
+    margin: auto;
+    width: 100%;
+    display: flex;
+
+  }
+
+  .header-top .header-top-shopping .user ul {
+    display: none;
+
+    position: absolute;
+    top: 16%;
+    right: 4%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(202, 202, 202, 0.021);
+    box-shadow: 1px 1px 2px 2px rgb(218, 218, 218);
+
+    padding: 20px;
+    font-size: 12px;
+    border-radius: 5px;
+
+    animation: user .8s;
+
+  }
+
+  #header .header-container .header-top .header-top-contact {
+    width: 23%;
+    display: flex;
+    align-items: center;
+    padding: 30px 0px 30px 0px;
+
+  }
+
+  .site-content .site-content-container .menu-item ul li::before {
+    content: ' ';
+    position: absolute;
+    left: 2.5%;
+    visibility: hidden;
+    width: 2px;
+    height: 49px;
+    background: #1467c1;
+  }
+
+  .headphone-icon {
+    position: relative;
+    color: rgb(129, 129, 129);
+    font-size: 10px;
+    right: 10%;
+
+  }
+
+  .musical-icon {
+    position: relative;
+    color: rgb(129, 129, 129);
+    font-size: 10px;
+    right: 10%;
+  }
+
+  .deals-item-left {
+    width: 49%;
+    height: 340px;
+    border: 1px solid rgba(199, 199, 199, 0.411);
+    border-radius: 2px;
+    display: flex;
+    transition: all .3s ease;
+
+  }
+
+  .deals-item-right {
+    width: 49%;
+    height: 340px;
+    border: 1px solid rgba(199, 199, 199, 0.411);
+    border-radius: 2px;
+    display: flex;
+    transition: all .3s ease;
+
+  }
+
+  .day-deals {
+    width: 95%;
+    height: 70%;
+    margin: 6% auto;
+
+  }
+
+  .deals-item-left {
+    width: 49%;
+    height: 340px;
+    border: 1px solid rgba(199, 199, 199, 0.411);
+    border-radius: 2px;
+    display: flex;
+    transition: all .3s ease;
+
+}
+
+.deals-item-left:hover {
+    cursor: pointer;
+    transition: all .3s ease;
+    box-shadow: 0 15px 20px 2px rgba(160, 160, 160, 0.7);
+
+}
+
+.deals-item-right {
+    width: 49%;
+    height: 340px;
+    border: 1px solid rgba(199, 199, 199, 0.411);
+    border-radius: 2px;
+    display: flex;
+    transition: all .3s ease;
+
+}
+
+.left-rt span.discount-end ul li {
+  list-style-type: none;
+  margin: 0.2rem;
+
+}
+
+
+.deals-item-right .right-rt span.discount-end ul {
+  display: flex;
+  width: 80%;
+
+}
+.deals-item-right .right-rt span.discount-end ul li {
+  list-style-type: none;
+  margin: 0.2rem;
+
+}
+
+
+
+
+
+  #sponsor {
+    width: 100%;
+    height: 50%;
+  }
+
+  .sponsor {
+
+    width: 100%;
+    height: 100%;
+    transition: .5s ease-in-out;
+  }
+
+  .sponsor-name {
+    width: 100%;
+    height: 30%;
+
+    background-color: #fff5ea;
+    transition: .5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sponsor-name img {
+    width: 15%;
+    transition: .5s ease-in-out;
+  }
+
+  .sponsor-instagram {
+    height: 70%;
+    display: flex;
+    /* justify-content: space-around; */
+  }
+
+  .sponsor-instagram .overlay {
+    width: 20%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+
+  }
+
+  .sponsor-instagram .overlay img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: .5s ease-in-out;
+  }
+
+  .overlay-insta {
+    width: 20%;
+    background-color: rgb(255, 135, 28);
+    position: relative;
+  }
+
+  .overlay-insta img {
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    width: 100%;
+    height: 50%;
+    z-index: 9999;
+    color: white;
+  }
+
+  .overlay-insta h1 {
+    font-size: 12px;
+    position: absolute;
+    top: 55%;
+    left: 17%;
+    color: white;
+    font-family: Consolas, 'Lucida Console', 'Courier New', monospace;
+  }
+
+  .overlay-insta p {
+    font-size: 12px;
+    position: absolute;
+    top: 65%;
+    left: 30%;
+    color: white;
+    text-align: center;
+    font-family: Consolas, 'Lucida Console', 'Courier New', monospace;
+  }
+
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1201px) and (max-width:1440px) {
+
+  * {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .header-nav .nav-container .col-lg-6:first-child ul {
+    display: flex;
+    justify-content: space-around;
+
+    width: 70%;
+
+  }
+
+  menu {
+    width: 100%;
+    height: 52px;
+    background: #f5f5f5 no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  menu .menu-container {
+    width: 95%;
+    height: 100%;
+  }
+
+
+
+  .site-content .site-content-container {
+    width: 95%;
+
+
+  }
+
+  .gift-special {
+    width: 95%;
+  }
+
+  .day-deals {
+    width: 95%;
+  }
+
+  .product-category {
+    width: 100%;
+    height: 80%;
+  }
+
+  .product-category-content {
+    width: 95%;
+  }
+
+  .newsletter {
+    width: 95%;
+  }
+
+  .end-price {
+    width: 95%;
+  }
+
+  .new-part {
+    width: 95%;
+  }
+
+  #sponsor {
+    width: 100%;
+    height: 70%;
+  }
+
+  .lang-menu {
+
+    display: none;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 2px 2px rgb(218, 218, 218);
+    border-radius: 5px;
+    z-index: 1;
+    width: 15%;
+    position: absolute;
+    top: 5%;
+    right: 1%;
+
+
+  }
+
+  .exchange .exchange-menu {
+    display: none;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 2px 2px rgb(218, 218, 218);
+    border-radius: 5px;
+    z-index: 1;
+    width: 10%;
+    position: absolute;
+    top: 5%;
+    right: 1%;
+  }
+
+  #header {
+    width: 100%;
+  }
+
+  #header .header-container {
+    width: 95%;
+  }
+
+  #header .header-container .header-top {
+
+    margin: auto;
+    width: 100%;
+    display: flex;
+
+  }
+
+  .header-top .header-top-shopping .user ul {
+    display: none;
+
+    position: absolute;
+    top: 16%;
+    right: 4%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(202, 202, 202, 0.021);
+    box-shadow: 1px 1px 2px 2px rgb(218, 218, 218);
+
+    padding: 20px;
+    font-size: 12px;
+    border-radius: 5px;
+
+    animation: user .8s;
+
+  }
+
+  #header .header-container .header-top .header-top-contact {
+    width: 23%;
+    display: flex;
+    align-items: center;
+    padding: 30px 0px 30px 0px;
+
+  }
+
+  .site-content .site-content-container .menu-item ul li::before {
+    content: ' ';
+    position: absolute;
+    left: 2.5%;
+    visibility: hidden;
+    width: 2px;
+    height: 49px;
+    background: #1467c1;
+  }
+
+  .headphone-icon {
+    position: relative;
+    color: rgb(129, 129, 129);
+    font-size: 10px;
+    right: 10%;
+
+  }
+
+  .musical-icon {
+    position: relative;
+    color: rgb(129, 129, 129);
+    font-size: 10px;
+    right: 10%;
+  }
+
+  .deals-item-left {
+    width: 49%;
+    height: 340px;
+    border: 1px solid rgba(199, 199, 199, 0.411);
+    border-radius: 2px;
+    display: flex;
+    transition: all .3s ease;
+
+  }
+
+  .deals-item-right {
+    width: 49%;
+    height: 340px;
+    border: 1px solid rgba(199, 199, 199, 0.411);
+    border-radius: 2px;
+    display: flex;
+    transition: all .3s ease;
+
+  }
+
+  .day-deals {
+    width: 95%;
+    height: 60%;
+    margin: 6% auto;
+
+  }
+
+}
+
+@media only screen and (min-width: 1441px) and (max-width:1920px) {
+
+  * {
+    box-sizing: border-box;
+
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  #header .header-container {
+    width: 95%;
+  }
+
+
+
+  menu .menu-container {
+    width: 95%;
+
+  }
+
+  .site-content .site-content-container {
+    width: 95%;
+
+
+  }
+
+  .gift-special {
+    width: 95%;
+  }
+
+  .day-deals {
+    width: 95%;
+  }
+
+  .product-category {
+    width: 100%;
+    height: 80%;
+  }
+
+  .product-category-content {
+    width: 95%;
+  }
+
+  .newsletter {
+    width: 95%;
+  }
+
+  .end-price {
+    width: 95%;
+  }
+
+  .new-part {
+    width: 95%;
+  }
+
+  #sponsor {
+    width: 100%;
+    height: 70%;
+  }
+
+  .lang-menu {
+
+    display: none;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 2px 2px rgb(218, 218, 218);
+    border-radius: 5px;
+    z-index: 1;
+    width: 15%;
+    position: absolute;
+    top: 5%;
+    right: 1%;
+
+
+  }
+
+  .exchange .exchange-menu {
+    display: none;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 2px 2px rgb(218, 218, 218);
+    border-radius: 5px;
+    z-index: 1;
+    width: 10%;
+    position: absolute;
+    top: 5%;
+    right: 1%;
+  }
+
+  .header-top .header-top-shopping .user ul {
+    display: none;
+
+    position: absolute;
+    top: 16%;
+    right: 4%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(202, 202, 202, 0.021);
+    box-shadow: 1px 1px 2px 2px rgb(218, 218, 218);
+
+    padding: 20px;
+    font-size: 12px;
+    border-radius: 5px;
+
+    animation: user .8s;
+
+  }
+
+  .site-content .site-content-container .menu-item ul li::before {
+    content: ' ';
+    position: absolute;
+    left: 2.5%;
+    visibility: hidden;
+    width: 2px;
+    height: 49px;
+    background: #1467c1;
+  }
+
+  .headphone-icon {
+    position: relative;
+    color: rgb(129, 129, 129);
+    font-size: 10px;
+    right: 10%;
+
+  }
+
+  .musical-icon {
+    position: relative;
+    color: rgb(129, 129, 129);
+    font-size: 10px;
+    right: 10%;
+  }
+
+  .deals-item-left {
+    width: 49%;
+    height: 340px;
+    border: 1px solid rgba(199, 199, 199, 0.411);
+    border-radius: 2px;
+    display: flex;
+    transition: all .3s ease;
+
+  }
+
+  .deals-item-right {
+    width: 49%;
+    height: 340px;
+    border: 1px solid rgba(199, 199, 199, 0.411);
+    border-radius: 2px;
+    display: flex;
+    transition: all .3s ease;
+
+  }
+
+  .day-deals {
+    width: 95%;
+    height: 70%;
+    margin: 2.5% auto;
+
+  }
+
+}
+
+/* Responsive Site Code End of the Here */
